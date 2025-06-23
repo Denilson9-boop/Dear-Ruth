@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bible Blossoms for Ruth</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #6a1b9a;
+      margin-bottom: 10px;
+    }
+
+    p.intro {
+      font-size: 20px;
+      color: #8e24aa;
+      margin-bottom: 30px;
+    }
+
+    .emoji {
+      font-size: 40px;
+      cursor: pointer;
+      margin: 12px;
+      transition: transform 0.3s ease;
+      display: inline-block;
+    }
+
+    .emoji:hover {
+      transform: scale(1.15);
+    }
+
+    .verse {
+      font-size: 18px;
+      margin: 16px;
+      color: #4a148c;
+    }
+
+    .summary {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #5d1049;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌼 Bible Blossoms for Ruth 🌼</h1>
+  <p class="intro">Click any emoji to reveal a verse — with love, from the Word of God 💖</p>
+
+  <div class="emoji" onclick="reveal(this, 'Proverbs 31:25 – She is clothed with strength and dignity; she can laugh at the days to come.')">🌸</div>
+
+  <div class="emoji" onclick="reveal(this, 'Jeremiah 29:11 – “For I know the plans I have for you,” declares the Lord…')">🌷</div>
+
+  <div class="emoji" onclick="reveal(this, 'Philippians 4:13 – I can do all things through Christ who strengthens me.')">☀️</div>
+
+  <div class="emoji" onclick="reveal(this, 'Isaiah 40:31 – But those who hope in the Lord will renew their strength.')">🍃</div>
+
+  <div class="emoji" onclick="reveal(this, 'Psalm 46:5 – God is within her, she will not fall.')">💐</div>
+
+  <div class="emoji" onclick="reveal(this, 'Romans 8:28 – In all things God works for the good of those who love Him.')">🌻</div>
+
+  <div class="emoji" onclick="reveal(this, '2 Timothy 1:7 – God gave us a spirit not of fear, but of power and love.')">🌼</div>
+
+  <div class="emoji" onclick="reveal(this, 'Joshua 1:9 – Be strong and courageous. Do not be afraid.')">🍀</div>
+
+  <div class="emoji" onclick="reveal(this, 'Proverbs 3:5–6 – Trust in the Lord with all your heart...')">🕊️</div>
+
+  <div class="emoji" onclick="reveal(this, 'Song of Solomon 4:7 – You are altogether beautiful, my darling.')">🌹</div>
+
+  <!-- Summary Text -->
+  <div class="summary">
+    <p>These verses remind you, Ruth, that you are strong, loved, guided, and never alone. No matter how hard life feels, God has a plan, and He walks every step with you. You are full of worth, full of beauty, and filled with the power He gave you. 💪💖</p>
+    <p>Stay motivated, stay kind, and never forget: you are never walking alone. God bless you always, Ruth. 🌟</p>
+  </div>
+
+  <script>
+    function reveal(el, message) {
+      el.outerHTML = '<div class="verse">' + message + '</div>';
+    }
+  </script>
+
+</body>
+</html>
